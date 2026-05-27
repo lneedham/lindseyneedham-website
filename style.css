@@ -167,16 +167,11 @@ main {
   justify-content: center;
 }
 
-.photo-placeholder {
+.headshot {
   width: 280px;
   height: 280px;
-  background-color: var(--color-border);
+  object-fit: cover;
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-text-light);
-  font-size: 0.9rem;
 }
 
 .about-text p {
